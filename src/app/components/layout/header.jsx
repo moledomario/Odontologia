@@ -25,8 +25,8 @@ const Header = () => {
                 <ul className="flex gap-6 text-gray-700">
                     {navLinks.map((link) => (
                         <li key={link.id}>
-                            <button 
-                                onClick={() => document.getElementById(link.id)?.scrollIntoView({ behavior: 'smooth' })} 
+                            <button
+                                onClick={() => document.getElementById(link.id)?.scrollIntoView({ behavior: 'smooth' })}
                                 className="text-lg hover:text-gray-500 transition-all duration-200 hover:border-b-2 border-blue-300"
                             >
                                 {link.label}

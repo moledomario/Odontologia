@@ -11,7 +11,7 @@ const Hero = () => {
                 <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent"></div>
                 <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-20">
                     <div className="max-w-[700px]">
-                        <h1 className="mt-[100px] md:mt-0 text-5xl md:text-5xl text-white tracking-[0.06em]" style={{ fontFamily: 'Oswald' }}>
+                        <h1 className="mt-[100px] md:mt-0 text-6xl md:text-6xl text-white tracking-[0.06em]" style={{ fontFamily: 'Oswald' }}>
                             Clinica Dental San Isídro
                             <br />
                             <span className="tracking-tight block mt-2 ">

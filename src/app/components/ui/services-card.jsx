@@ -34,7 +34,7 @@ const ServicesCard = () => {
                     key={index}
                     data-aos="fade-up"
                     data-aos-delay={index * 200}
-                    className="group relative w-full h-[400px] rounded-[2rem] shadow-xl overflow-hidden transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 hover:bg-blur/50"
+                    className="group relative w-full h-[400px] rounded-[2rem] shadow-xl overflow-hidden transition-all duration-700 ease-out hover:shadow-[0_24px_48px_rgba(0,0,0,0.38)] hover:-translate-y-3"
                 >
                     <Image
                         src={item.img}
