@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`h-full ${inter.className} ${oswald.className}`}
+      className={`h-full ${inter.className} ${oswald.className} overflow-x-hidden`}
     >
       <body className="min-h-full flex flex-col overflow-x-hidden">{children}</body>
     </html>
