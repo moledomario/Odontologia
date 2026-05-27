@@ -23,6 +23,9 @@ const tangerine = Tangerine({
 export const metadata = {
   title: "Clinical",
   description: "Landing page para clinica",
+  icons: {
+    icon: "/logo1.png",
+  },
 };
 
 export default function RootLayout({ children }) {

@@ -17,7 +17,7 @@ const Header = () => {
     return (
         <header className="h-20 w-full fixed top-0 z-50 bg-white flex items-center justify-between px-6 md:px-12 py-4 border-b border-gray-200">
             <div>
-                <Image src="/logo1.png" alt="logo" width={100} height={100} priority />
+                <Image src="/logo1.png" alt="logo" width={200} height={200} priority />
             </div>
 
             {/* Desktop nav */}
